@@ -7,25 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<header class="header">
-    <div class="container">
-        <span>ЭВАКУАТОР-СЕРВИС</span>
-    </div>
+<header class="header container">
+    <span>ЭВАКУАТОР-СЕРВИС</span>
+    <nav class="nav">
+        <a class="nav__item" href="#services">Наши услуги</a>
+        <a class="nav__item" href="#about">О нас</a>
+        <a class="nav__item" href="#contacts">Контакты</a>
+        <a class="nav__item" href="#gallery">"С места событий"</a>
+    </nav>
 </header>
-<section class="lobby">
-    <div class="container">
+<section class="lobby container">
         <h1 class="lobby__title">Услуги эвакуатора в Одессе и области</h1>
-    </div>
 </section>
-<section class="contacts">
-    <a class="container">
-        <div class="contact">
+<section id="contacts" class="contacts container">
+    <div class="section__title">Дал-дал, не ушел?! ЗВОНИ!!!</div>
+    <div class="contacts__list">
+        <a class="contact">
+            <span class="contact__icon contact__icon-telegram"></span>
+            <span class="contact__body">096-26-26-996</span>
+        </a>
+        <a class="contact">
             <span class="contact__icon contact__icon-viber"></span>
             <span class="contact__body">096-26-26-996</span>
-        </div>
-    </a>
+        </a>
+        <a class="contact">
+            <span class="contact__icon contact__icon-email"></span>
+            <span class="contact__body">096-26-26-996</span>
+        </a>
+        <a class="contact">
+            <span class="contact__icon contact__icon-phone"></span>
+            <span class="contact__body">096-26-26-996</span>
+        </a>
+    </div>
 </section>
-<footer class="footer"></footer>
+<section id="services" class="services container">
+    <div class="section__title">Услуги</div>
+
+    <!--<ul>-->
+        <!--<li>Эвакуация транспортных средств</li>-->
+        <!--<li>Эвакуация ржавых корыт</li>-->
+        <!--<li>Утилизация старых корчей</li>-->
+        <!--<li></li>-->
+        <!--<li></li>-->
+        <!--<li></li>-->
+        <!--<li>Вывоз тел</li>-->
+    <!--</ul>-->
+</section>
+<section id="about" class="about container">
+    <div class="section__title">О нас</div>
+    <p></p>
+</section>
+<section id="gallery" class="gallery container">
+    <div class="section__title">Галерея</div>
+
+</section>
+<footer class="footer">
+    <a class="footer__email" href="mailto:martynukaleksandr999@gmail.com">martynukaleksandr999@gmail.com</a>
+</footer>
 
 <script src="js/main.js"></script>
 </body>
