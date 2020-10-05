@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Сайт Александра</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lib/tiny-slider.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -22,20 +23,24 @@
 <section id="contacts" class="contacts container">
     <div class="section__title">Дал-дал, не ушел?! ЗВОНИ!!!</div>
     <div class="contacts__list">
-        <a class="contact">
+        <a class="contact" href="tg://resolve?domain=380962626996">
             <span class="contact__icon contact__icon-telegram"></span>
             <span class="contact__body">096-26-26-996</span>
         </a>
-        <a class="contact">
+        <a class="contact" href="viber://forward?text=380962626996">
             <span class="contact__icon contact__icon-viber"></span>
             <span class="contact__body">096-26-26-996</span>
         </a>
-        <a class="contact">
-            <span class="contact__icon contact__icon-email"></span>
+        <!--<a class="contact" href="mailto:martynukaleksandr999@gmail.com">-->
+            <!--<span class="contact__icon contact__icon-email"></span>-->
+            <!--<span class="contact__body">martynukaleksandr999@gmail.com</span>-->
+        <!--</a>-->
+        <a class="contact" href="tel:380962626996">
+            <span class="contact__icon contact__icon-phone"></span>
             <span class="contact__body">096-26-26-996</span>
         </a>
         <a class="contact">
-            <span class="contact__icon contact__icon-phone"></span>
+            <span class="contact__icon contact__icon-instagram"></span>
             <span class="contact__body">096-26-26-996</span>
         </a>
     </div>
@@ -59,11 +64,25 @@
 </section>
 <section id="gallery" class="gallery container">
     <div class="section__title">Галерея</div>
-
+    <div class="slider">
+        <div>
+            <img src="images/gallery/1.jpg" alt="">
+        </div>
+        <div>
+            <img src="images/gallery/2.jpg" alt="">
+        </div>
+        <div>
+            <img src="images/gallery/3.jpg" alt="">
+        </div>
+        <div>
+            <img src="images/gallery/4.jpg" alt="">
+        </div>
+    </div>
 </section>
 <footer class="footer">
     <a class="footer__email" href="mailto:martynukaleksandr999@gmail.com">martynukaleksandr999@gmail.com</a>
 </footer>
+<script src="js/lib/tiny-slider.js"></script>
 
 <script src="js/main.js"></script>
 </body>
