@@ -7,12 +7,20 @@ function init() {
 function initSlider() {
     var slider = tns({
         container: '.slider',
-        items: 3,
+        items: 1,
         slideBy: 1,
         autoplay: false,
         nav: false,
         lazyload: true,
         touch: true,
-        mouseDrag: true
+        mouseDrag: true,
+        responsive: {
+            568: {
+                items: 2
+            },
+            900: {
+                items: 3
+            }
+        }
     });
 }
