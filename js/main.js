@@ -1,26 +1,20 @@
 window.onload = init;
 
 function init() {
-    initSlider();
+    initInstagramFeed();
 }
 
-function initSlider() {
-    var slider = tns({
-        container: '.slider',
-        items: 1,
-        slideBy: 1,
-        autoplay: false,
-        nav: false,
-        lazyload: true,
-        touch: true,
-        mouseDrag: true,
-        responsive: {
-            568: {
-                items: 2
-            },
-            900: {
-                items: 3
-            }
-        }
+function initInstagramFeed() {
+    $.instagramFeed({
+        'username': 'evakuator.ua.service',
+        'container': "#instafeed",
+        'get_data': true,
+        'display_profile': false,
+        'display_biography': false,
+        'display_gallery': true,
+        'items': 8,
+        'items_per_row': 4,
+        'styling': false,
+        'margin': 0.5
     });
 }

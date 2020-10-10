@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Эвакуатор в Одессе</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/lib/tiny-slider.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -13,20 +12,21 @@
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
+    <script src="js/lib/jquery.min.js"></script>
 </head>
 <body>
 <img class="paralax" src="images/lobby_bg.jpg" alt="ЭвакуаторОдесса">
 <header class="header container">
     <a href="tel:380962626996">+38(096)-26-26-996</a>
     <nav class="nav">
-        <a class="nav__item" href="#services">Наши услуги</a>
         <a class="nav__item" href="#contacts">Контакты</a>
+        <a class="nav__item" href="#services">Наши услуги</a>
         <a class="nav__item" href="#gallery">Как мы работаем</a>
     </nav>
 </header>
 <section class="lobby container">
     <h1 class="lobby__title">Услуги эвакуатора в Одессе и области</h1>
-    <h3 class="lobby__subtitle">Самая быстрая подача эвакуатора в Одессе и области в течение 15-20 минут от 400 грн.</h3>
+    <h3 class="lobby__subtitle">Самая быстрая подача эвакуатора в Одессе и области от 10-20 минут от 400 грн.</h3>
     <a href="tel:380962626996" class="lobby__callBtn">Вызвать эвакуатор</a>
 </section>
 <section id="contacts" class="contacts container">
@@ -93,30 +93,15 @@
 
 </section>
 <section id="gallery" class="gallery container">
-    <div class="section__title">Мы в работе</div>
-    <div class="slider">
-        <div>
-            <img src="images/gallery/1.jpg" alt="">
-        </div>
-        <div>
-            <img src="images/gallery/2.jpg" alt="">
-        </div>
-        <div>
-            <img src="images/gallery/3.jpg" alt="">
-        </div>
-        <div>
-            <img src="images/gallery/4.jpg" alt="">
-        </div>
-        <div>
-            <img src="images/gallery/5.jpg" alt="">
-        </div>
-    </div>
+    <div class="section__title">Мы в Instagram</div>
+    <div id="instafeed"></div>
+
 </section>
 <footer class="footer">
     <a class="footer__email" href="mailto:martynukaleksandr999@gmail.com">martynukaleksandr999@gmail.com</a>
 </footer>
-<script src="js/lib/tiny-slider.js"></script>
 
+<script src="js/lib/jquery.instagramFeed.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
